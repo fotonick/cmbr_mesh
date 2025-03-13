@@ -14,8 +14,11 @@ to 20% of the radius (valley-to-peak). That's an amplification factor of ~1365×
 │   ├── cmbr_bottom.stl: the bottom half of a cut-in-half sphere with a channel for a dowel
 │   ├── cmbr_hollow_split.f3d: the Fusion 360 file containing all history of importing and repairing the mesh, turning it into a solid, then slicing in half and making suitable for a dowel
 │   ├── cmbr_top.stl: the top half of a cut-in-half sphere with a channel for a dowel
-│   └── dowel.stl: the keyed dowel to connect _top and _bottom
-├── cmbr_mesh.ipynb: Jupyter notebook containing the executable code to read Planck data, downsample, map, and output to an STL file
+│   ├── dowel.stl: the keyed dowel to connect _top and _bottom
+│   └── ornament
+│     ├── cmbr_ornament_bottom.stl: bottom half of solid sphere with a ring added for hanging (no dowel needed)
+│     └── cmbr_ornament_top.stl: top half of solid sphere with a ring added for hanging (no dowel needed)
+├── cmbr_mesh.ipynb: Jupyter notebook containing the executable Rust code to read Planck data, downsample, map, and output to an STL file
 └── cmbr_mesh.pdf: Print to PDF of the Jupyter notebook
 ```
 
